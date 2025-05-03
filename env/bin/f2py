@@ -1,4 +1,6 @@
-#!/Users/ayse/Desktop/Bookly/env/bin/python3.10
+#!/bin/sh
+'''exec' /Users/ayse/Desktop/Bookly/env/bin/python "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
