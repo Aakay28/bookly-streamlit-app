@@ -1,0 +1,13 @@
+prefix=/Users/ayse/Desktop/Bookly/env
+exec_prefix=/Users/ayse/Desktop/Bookly/env
+libdir=/Users/ayse/Desktop/Bookly/env/lib
+sharedlibdir=/Users/ayse/Desktop/Bookly/env/lib
+includedir=/Users/ayse/Desktop/Bookly/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
